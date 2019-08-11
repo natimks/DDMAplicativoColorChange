@@ -21,4 +21,9 @@ public class MainActivity extends AppCompatActivity {
         Intent myIntent = new Intent(MainActivity.this, CelciusForFahActivity.class);
         this.startActivity(myIntent);
     }
+
+    public void onClickBotaoDois(View view) {
+        Intent myIntent = new Intent(MainActivity.this, SwitchActivity.class);
+        this.startActivity(myIntent);
+    }
 }
